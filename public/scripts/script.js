@@ -71,6 +71,9 @@ function setActiveTab() {
 	if (url.indexOf('/about') != -1) {
 		$('#topNavigation #about').addClass('active');
 	}
+	else if (url.indexOf('/contact') != -1) {
+		$('#topNavigation #contact').addClass('active');
+	}
 	else {
 		$('#topNavigation #home').addClass('active');
 	}
